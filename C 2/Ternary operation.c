@@ -12,6 +12,7 @@ int main() {
     // // printf("%d is odd",x);
     // but ternary me same kaam ek line me hoga ye pattern follow karte
     // condition ? if true : if false;
+    // isko khali single if else me use karna hai baaki if else me nahi jaise ki "if else if ..... else"
     x % 2 == 0 ? printf("%d is even", x) : printf("%d is odd", x);
     return 0;
 }
